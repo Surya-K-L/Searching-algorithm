@@ -4,11 +4,11 @@ public class BinarySearch {
     public static void main(String h[]) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int a[] = new int[n];
+        int arr[] = new int[n];
         for (int i = 0; i < n; i++)
-            a[i] = sc.nextInt();
+            arr[i] = sc.nextInt();
         int k = sc.nextInt();
-        int z = Binary(n, a, k);
+        int z = Binary(n, arr, k);
         if (z == -1)
             System.out.print("not found");
         else
